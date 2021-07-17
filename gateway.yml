@@ -21,6 +21,6 @@ spring:
         - id: equipment-catalog
           uri: lb://EQUIPMENT-CATALOG
           predicates:
-            - Path=/equipment/**
+            - Path=/api/v1/equipment/**
             
 
